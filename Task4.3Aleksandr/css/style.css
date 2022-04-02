@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    background-image: url(../images/grape.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+header {
+    max-width: 470px;
+}
+
+main {
+    padding-top: 267px;
+    width: 535px;
+}
+
+nav {
+    border-bottom: solid 1px #C08D5D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.home {
+    color: #C08D5D;
+    text-decoration: none;
+}
+
+.one {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 83.36px;
+    width: 38.64px;
+    vertical-align: middle;
+}
+
+.two {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Yeseva One', cursive;
+    font-size: 70px;
+    color: #3F4042;
+}
+
+h1 span {
+    text-transform: none;
+    display: block;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+h1 span::after {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/logo.svg);
+    height: 69px;
+    width: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: sub;
+    margin-left: 8px;
+}
+
+h1::after {
+    content: url(../images/vector.svg);
+    display: block;
+    padding-top: 45px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #3F4042;
+    line-height: 147.6%;
+    padding-top: 26px;
+    padding-bottom: 72px;
+}
+
+.more {
+    display: inline-block;
+    text-decoration: none;
+    color: #3F4042;
+    font-size: 20px;
+    border: solid 2px #C08D5D;
+    padding-left: 15px;
+}
+
+.more::after {
+    content: "";
+    background-image: url(../images/vector2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-color: #C08D5D;
+    height: 64px;
+    width: 59px;
+    vertical-align: middle;
+    margin-left: 22px;
+}
+
+.mouse {
+    display: block;
+    padding: 63px 703px 69px 703px;
+}
